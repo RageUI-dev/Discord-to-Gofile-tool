@@ -1,12 +1,6 @@
 # Discord to GoFile
 
-Transfert rapide de fichiers Discord CDN vers GoFile.
-
-## Installation
-
-```bash
-pip install requests
-```
+Script Python pour transférer des fichiers depuis Discord CDN vers GoFile.
 
 ## Utilisation
 
@@ -14,24 +8,25 @@ pip install requests
 python discord_to_gofile.py
 ```
 
-Ou directement avec l'URL :
+Ou avec URL directe :
 
 ```bash
 python discord_to_gofile.py "https://cdn.discordapp.com/attachments/..."
 ```
 
-## Exemple
-
-```bash
-python discord_to_gofile.py -q "https://cdn.discordapp.com/attachments/123/456/file.zip"
-```
-
 ## Fonctionnalités
 
+- Téléchargement depuis Discord CDN
+- Upload automatique vers GoFile
 - Barre de progression
-- Préservation du nom de fichier
-- Gestion des erreurs
-- Nettoyage automatique
+- Préservation du nom de fichier original
+- Gestion des erreurs et timeouts
+
+## Dépendances
+
+```bash
+pip install requests
+```
 
 ---
 
