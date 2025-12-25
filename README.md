@@ -20,13 +20,6 @@ Ou directement avec l'URL :
 python discord_to_gofile.py "https://cdn.discordapp.com/attachments/..."
 ```
 
-## Options
-
-```bash
--q, --quiet      Mode silencieux
---no-pause       Pas de pause à la fin
-```
-
 ## Exemple
 
 ```bash
